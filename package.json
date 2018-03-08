@@ -1,0 +1,19 @@
+{
+  "name": "rm_cups",
+  "version": "1.0.0",
+  "description": "First project on Node.js vs Express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tychyna/RMCups.git"
+  },
+  "author": "Oleksandr Tychyna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tychyna/RMCups/issues"
+  },
+  "homepage": "https://github.com/tychyna/RMCups#readme"
+}
