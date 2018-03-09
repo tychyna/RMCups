@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tychyna/RMCups/issues"
   },
-  "homepage": "https://github.com/tychyna/RMCups#readme"
+  "homepage": "https://github.com/tychyna/RMCups#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
