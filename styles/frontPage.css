@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    position: absolute;
+    bottom: 0;
+    height: 500px;
+    width: 800px;
+}
+
+#container img {
+    bottom: 0;
+    position: absolute;
+    opacity: 0;
+}
+
+#player1 {
+    left: 290px;
+    width: 241px;
+    height: 433px;
+    z-index: 2;
+    animation: showPlayer 2s linear .5s forwards;
+}
+
+#player2 {
+    left: 30px;
+    width: 308px;
+    height: 406px;
+    z-index: 1;
+    animation: showPlayer 2s linear 2.5s forwards;
+}
+
+#player3 {
+    left: 480px;
+    width: 304px;
+    height: 401px;
+    z-index: 1;
+    animation: showPlayer 2s linear 4.5s forwards;
+}
+
+@keyframes showPlayer {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
