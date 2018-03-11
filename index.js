@@ -1,17 +1,11 @@
 var express = require('express');
+
 var app = express();
 
-var requestTime1 = function (req, res, next) {
-  req.requestTime = Date.now();
-  next();
-};
-
-app.use(requestTime1);
+app.use("/public", express.static("public"));
 
 app.get('/', function (req, res) {
-  var responseText = 'Hello World!';
-  responseText += 'Requested at: ' + req.requestTime + '';
-  res.send(responseText);
+  res.sendFile(__dirname + "/views/frontPage.html");
 });
 
-app.listen(3000);
+app.listen(3000, () => console.log("Server is started"));
