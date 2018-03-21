@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="public/styles/signUp.css">
     <link rel="stylesheet" href="public/styles/bootstrap.css">
@@ -56,14 +56,12 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                            <input type="email" class="form-control form-control-lg" id="email" aria-describedby="emailHelp" placeholder="Email">
                         </div>
                         <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <input type="password" class="form-control form-control-lg" id="password" placeholder="Password">
                         </div>
-                        <button type="submit" class="btn btn-primary float-right">Submit</button>
+                        <button type="submit" class="col-12 btn btn-primary btn-lg">Sign in</button>
                     </form>
                 </div>
                 <div class="modal-footer"></div>
@@ -74,35 +72,32 @@
 
     <div class="container signUp d-flex justify-content-center align-items-center">
 
-        <div class="col-lg-6 col-md-6">
+        <div class="col-md-5">
+            <h1>Sign up</h1>
+
             <form method="get" action="signUp">
                 <div class="form-group">
-                    <label for="loginSignUp">Login</label>
-                    <input type="text" class="form-control" id="loginSignUp" placeholder="Enter login">
+                    <input type="text" class="form-control form-control-lg" id="loginSignUp" placeholder="Login">
                 </div>
                 <div class="form-group">
-                    <label for="emailSignUp">Email address</label>
-                    <input type="text" class="form-control" id="emailSignUp" placeholder="Enter email">
+                    <input type="text" class="form-control form-control-lg" id="emailSignUp" placeholder="Email">
                 </div>
                 <div class="form-group">
-                    <label for="passwordSignUp">Password</label>
-                    <input type="password" class="form-control" id="passwordSignUp" placeholder="Password">
+                    <input type="password" class="form-control form-control-lg" id="passwordSignUp" placeholder="Password">
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-7">
-                        <label for="adressSignUp">Address</label>
-                        <input type="text" class="form-control" id="adressSignUp" placeholder="Enter your Adress">
+                        <input type="text" class="form-control form-control-lg" id="adressSignUp" placeholder="Adress">
                     </div>
                     <div class="form-group col-md-5">
-                        <label for="stateSignUp">State</label>
-                        <select id="stateSignUp" class="form-control">
+                        <select id="stateSignUp" class="form-control form-control-lg">
                             <option selected>Male</option>
                             <option>Female</option>
                         </select>
                     </div>
                 </div>
 
-                <button type="submit" class="col-lg-5 btn btn-primary float-right">Submit</button>
+                <button type="submit" class="col-12 btn btn-primary btn-lg">Sign up</button>
             </form>
         </div>
     </div>
